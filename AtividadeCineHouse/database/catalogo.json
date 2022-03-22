@@ -1,0 +1,24 @@
+[{
+    "codigo":1,
+    "titulo":"Titanic",
+    "duracao": 2,
+    "atores":["Leonardo di Caprio", "Kate Winslet"],
+    "anoDeLancamento":1998,
+    "emCartaz":true
+    },
+    {
+    "codigo":2,
+    "titulo":"O diabo veste Prada",
+    "duracao": 1,
+    "atores":["Meryl Streep", "Anne Hathaway"],
+    "anoDeLancamento":2006,
+    "emCartaz":true
+    },
+    {
+    "codigo":3,
+    "titulo":"De volta para o futuro",
+    "duracao": 2,
+    "atores":["Michael J Fox", "Chistopher Lloyd"],
+    "anoDeLancamento":1985,
+    "emCartaz":true
+}]
