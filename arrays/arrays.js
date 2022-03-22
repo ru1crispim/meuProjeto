@@ -42,5 +42,5 @@ console.log(listaDeAlunos.length);
 
 // Metodo unshift() - Mostra lista da array delimitado por alguma informação
 
-console.log(listaDeAlunos.join('-'));
+console.log(listaDeAlunos.join('/'));
 
