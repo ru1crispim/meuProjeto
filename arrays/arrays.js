@@ -40,7 +40,7 @@ console.log('Mas também foi encontrado na posição ',listaDeAlunos.lastIndexOf
 
 console.log(listaDeAlunos.length);
 
-// Metodo unshift() - Mostra lista da array delimitado por alguma informação
+// Metodo join() - Mostra lista da array delimitado por alguma informação
 
 console.log(listaDeAlunos.join('/'));
 
