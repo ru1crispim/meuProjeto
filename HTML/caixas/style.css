@@ -1,0 +1,42 @@
+div{
+    border: 3px solid;
+    padding: 30px;
+    margin: 10px;
+}
+
+header{
+    border: 3px solid;
+    padding: 30px;
+    margin: 10px;
+}
+
+main{
+    border: 3px solid;
+    padding: 30px;
+    margin: 10px;
+}
+
+footer{
+    border: 3px solid;
+    padding: 30px;
+    margin: 10px;
+}
+
+section{
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+}
+
+article{
+padding: 20px;
+margin: 20px 0px;
+background-color: gold;
+}
+
+span{
+    background-color: purple;
+}
+img {
+    width: 900px;
+    max-width: 100%;
+}

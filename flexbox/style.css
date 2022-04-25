@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/* Respeita as dimensões fornecidas, realizando a quebra de linha quando necessario  */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.child{
+    width: 50%;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+}

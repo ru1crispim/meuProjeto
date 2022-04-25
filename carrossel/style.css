@@ -1,0 +1,38 @@
+@keyframes carrossel{
+    0%{margin-left: 0px;}
+    20%{margin-left: 0px;}
+    40%{margin-left: -1200px;}
+    60%{margin-left: -1200px;}
+    80%{margin-left: -2400px;}
+    100%{margin-left: -2400px;}
+}
+
+.carrossel{
+    display: flex;
+    justify-content: center;
+}
+
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 480px;
+    background-color: red;
+    overflow: hidden;
+
+}
+.parent img{
+    width: 1200px;
+    height: 480px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: row;
+    animation-name: carrossel;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+

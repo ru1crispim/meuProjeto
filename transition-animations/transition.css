@@ -1,0 +1,86 @@
+@keyframes aumentando{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: lightgreen;
+    }
+
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    }
+    50%{
+        width: 400px;
+        height: 400px;
+        background-color: yellow;
+    }
+    75%{
+        width: 600px;
+        height: 600px;
+        background-color: red;
+    }
+    100%{
+        width: 800px;
+        height: 800px;
+        background-color: purple;
+    }
+}
+
+
+@keyframes aparecendo{
+    0%{
+        opacity: 0;
+    }
+
+    20%{
+        opacity: 0.5;
+
+    }
+    40%{
+        opacity: 1;
+
+    }
+    60%{
+        opacity: 1.5;
+    }
+    80%{
+        opacity: 2;
+    }
+    100%{
+        opacity: 2;
+    }
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    animation-name: aparecendo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* .quadrado{
+    animation-name: aumentando;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition:border-radius 450ms;
+} */
+
+
+/* TRANSIÇÕES */
+
+/* .quadrado:hover{
+    border-radius: 50%;
+    transition-duration: 450ms;
+    background-color: pink;
+    
+} */

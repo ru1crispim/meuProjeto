@@ -1,0 +1,25 @@
+body{
+    font-family:Arial;
+}
+
+input:hover{
+    background-color: lightblue;
+}
+
+input:focus{
+    width: 400px;
+}
+input:hover{
+    border-color: orange;
+}
+
+p:hover{
+    color: green;
+}
+
+p:last-of-type{
+    background-color: gray;
+}
+p:nth-child(){
+    background-color: gray;
+}
